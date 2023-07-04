@@ -1,4 +1,5 @@
 import 'package:booktickets/Home/screen/home_screen.dart';
+import 'package:booktickets/Profile/profile_screen.dart';
 import 'package:booktickets/Search/screen/search_screen.dart';
 import 'package:booktickets/Ticket/ticket_screen.dart';
 import 'package:booktickets/Utils/app_layout.dart';
@@ -19,7 +20,7 @@ class _BottomBarState extends State<BottomBar> {
     const HomeScreen(),
     const SearchScreen(),
     const TicketScreen(),
-    const Text("Profile")
+    const ProfileScreen()
   ];
 
   void _onItemTap(int index) {
